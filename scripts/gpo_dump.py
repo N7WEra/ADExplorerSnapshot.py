@@ -6,7 +6,7 @@ import pwnlib.term, pwnlib.log, logging
 from bloodhound.ad.utils import ADUtils
 from datetime import datetime, timedelta, timezone
 from certipy.lib.constants import *
-from certipy.lib.security import ActiveDirectorySecurity, CertifcateSecurity as CertificateSecurity, CASecurity
+from certipy.lib.security import ActiveDirectorySecurity, CertificateSecurity, CASecurity
 from pathlib import Path
 import argparse
 import os
